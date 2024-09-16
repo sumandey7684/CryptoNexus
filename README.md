@@ -11,6 +11,10 @@ Welcome to **CryptroNexus**, a sleek and responsive frontend web application tha
 - **User-Friendly Interface:** Simple, modern design for easy navigation.
 
 ---
+## 🌐 Live View
+
+Check out the live version of **CryptroNexus** here: [CryptroNexus Live](https://cryptonexus-sumandey.netlify.app/)
+---
 
 ## 🛠️ Tech Stack
 
