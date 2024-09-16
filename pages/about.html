@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CryptoNexus</title>
+    <link rel="icon" href="\assets\images\icon-removebg-preview (1).png" type="ico/jpg/png">
+</head>
+<body>
+
+    <div class="overlay">
+        <button id="closeMenu"><i class="ri-close-circle-line"></i></button>
+
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/pages/charts.html">Charts</a>
+            <a href="/pages/search.html">Search</a>
+            <a href="/pages/about.html" class="active">About US</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ft.sumandey/"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/in/suman-dey-964612282/"><i class="ri-linkedin-line"></i></a>
+            <a href="https://github.com/sumandey7684"><i class="ri-github-line"></i></a>
+            <a href="#Soon"><i class="ri-discord-line"></i></a>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="global">
+            <p>Coins: <b id="coins-count">N/A</b></p>
+            <p>Exchanges: <b id="exchanges-count">N/A</b></p>
+            <p>Market Cap: <span><b id="marketCap">N/A</b> <span id="marketCapChange">N/A <i
+                            class="ri-arrow-down-s-fill"></i></span></span></p>
+            <p>24H Vol: <b id="volume">N/A</b></p>
+            <p>Dominance: <b id="dominance">BTC N/A% - ETH N/A%</b></p>
+        </div>
+
+        <nav>
+            <div class="left-section">
+                <button id="openMenu"><i class="ri-menu-line"></i></button>
+                <a href="#" class="logo">CryptoNexus.</a>
+                <div class="nav-links">
+                    <a href="/index.html">Home</a>
+                    <a href="/pages/charts.html">Charts</a>
+                    <a href="/pages/search.html">Search</a>
+                    <a href="/pages/about.html" class="active">About US</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <form class="search" id="searchForm">
+                    <i class="ri-search-line"></i>
+                    <input type="text" id="searchInput" placeholder="Search for an asset..." required
+                        autocomplete="off">
+                </form>
+                <i id="theme-toggle" class="ri-sun-line"></i>
+            </div>
+        </nav>
+
+        <div class="about-container">
+            <div class="info">
+                <h3>The CryptoNexus Story...</h3>
+                <p>
+                    Welcome to CryptoNexus, where we simplify cryptocurrency transactions without compromising on security.
+                    Our platform is designed to meet the diverse needs of both individual investors and institutional clients,
+                    offering a seamless blend of cutting-edge technology and intuitive user experience.
+                    <br><br>
+                    At CryptoNexus, we're committed to democratizing access to digital assets, making cryptocurrency a viable option for everyone.
+                    By combining the best of traditional financial practices with the innovation of blockchain technology,
+                    we provide a trusted, reliable, and user-centric environment for all your cryptocurrency trading activities.
+                    Experience the future of finance with CryptoNexus – where security meets simplicity.
+                </p>
+                <div class="buttons">
+                    <button>Learn More</button>
+                    <button>Contact US</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/assets/images/Logo.png" alt="about">
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p id="copyright" class="copyright">
+            Copyright &copy; 2024 CryptoNexus. All Rights Reserved
+        </p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ft.sumandey/"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.linkedin.com/in/suman-dey-964612282/"><i class="ri-linkedin-line"></i></a>
+            <a href="https://github.com/sumandey7684"><i class="ri-github-line"></i></a>
+            <a href="#Soon"><i class="ri-discord-line"></i></a>
+        </div>
+    </footer>
+
+    <button onclick="scrollToTop()" id="scrollTop"><i class="ri-arrow-up-s-line"></i></button>
+
+
+    <script src="../assets/js/global.js"></script>
+</body>
+
+</html>
